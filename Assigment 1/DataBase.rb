@@ -29,7 +29,7 @@ class DataBase
 
     def validate_files(genefile, seedstockfile, hybridcrossfile, newstockfile) #It is important to validate file extenssions
         unless genefile=~/.tsv$/ && seedstockfile=~/.tsv$/ && hybridcrossfile=~/.tsv$/ && newstockfile=~/.tsv$/
-            abort "Some argument(s) are not .tsv files. Please try again with the proposed format (.tsv)"  #If there are any error it will abort
+            abort "ERROR: Some argument(s) are not .tsv files. Please try again with the proposed format (.tsv)"  #If there are any error it will abort
          end
      end
 

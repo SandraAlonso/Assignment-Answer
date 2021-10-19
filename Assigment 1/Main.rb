@@ -5,7 +5,7 @@ genefile, seedstockfile, hybridcrossfile, newstockfile = ARGV
 
 #Validation of the number of arguments. Must be 4
 if !genefile || !seedstockfile || !hybridcrossfile || !newstockfile # If some file is missing then abort
-    abort "Arguments are not enough. You should use Main.rb genefile seedstockfile hybridcrossfile newfile\n\n"
+    abort "ERROR: Arguments are not enough. You should use Main.rb genefile seedstockfile hybridcrossfile newfile\n\n"
 end
 
 #I have created a folder with all the files to obtain a cleaner environment so we need to use the path: ./StockDatabaseDataFiles/ + file_name
