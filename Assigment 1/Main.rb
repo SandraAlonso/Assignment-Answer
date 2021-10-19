@@ -43,3 +43,25 @@ end
 
 #Update stock info in a new file
 d.write_new_stock_file('./StockDatabaseDataFiles/'+newstockfile)
+
+
+puts
+
+#demonstrations of the functions for bonus
+puts "-------------BONUS-------------"
+puts "1. Verify gene identifier format"
+# +1% if your Gene Object tests the format of the Gene Identifier and rejects incorrect formats without crashing
+# I have created a file with a wrong gem format: ATp1G69120 in ./BonusFile/gene_information.tsv
+d = DataBase.new(
+    :genefile => './BonusFiles/'+genefile,
+    :seedstockfile =>  './StockDatabaseDataFiles/'+seedstockfile,
+    :hybridcrossfile => './StockDatabaseDataFiles/'+hybridcrossfile,
+    :newstockfile => './StockDatabaseDataFiles/'+newstockfile
+)
+d.load_files()
+# expected output: ERROR: The Arabidopsis gene identifier ATp1G69120 do not have the appropriate format
+
+#1% if you create an Object that represents your entire Seed Stock "database"
+#Here I have created DataBase.rb wich works as the database. 
+#There are 3 functions to load all files and other one to write a new file with the updated stock
+#This exercise is domonstrated throw the normal execution.
