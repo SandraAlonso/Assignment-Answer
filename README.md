@@ -23,7 +23,12 @@ Command for code excution:
       </li>
     <li> Second Approach 
          <ul> 
-           <li>Explanation:  </li>
+           <li>Explanation: 
+             <ul> <li> Gene Networks are considered to be every interactor whose have the same "father". In this case, we will only annotate those which are included in the Arabidopsis initial gene list </li>
+               <li> In example (1 level depth) Arabidopsis list: A, B, C, E. Iteractors of A with depth 1: D, E, C, J. Therefore, the is one net A-D-E-C-J and although they are all in the network, only A, C and E  will be annotated. Genes A, E and C are coexpressed </li>
+               <li> In example: (2 level depth) Arabidopsis list A, B, C, E. Interactors of B with depth 1: H, I, J. Interactors of H with depth 1: C, P. Therefore, there is one net: B-H-I-J-C-P and although they are all in the network, we will only annotate B and C. Genes B and C are coexpressed.</li>
+             </ul> 
+           </li>
            <li> Running command: .\Main.rb </li>
       </ul>
       </li>
