@@ -33,5 +33,9 @@ Command for code excution:
       </ul>
       </li>
   </ul>
+   <li> Thrith Assigmnet: 
+     <ul> <li> Running command: .\Main.rb (it is mandatory to introduce the repeat you want to find. It is asked when running) </li>
+  </ul>
+  </li>
      </li>
  </ul>
