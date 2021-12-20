@@ -38,4 +38,9 @@ Command for code excution:
   </ul>
   </li>
      </li>
+     <li> Forth Assigmnet: 
+     <ul> <li> Running command: .\Main.rb TAIR10.fa pep.fa</li>
+  </ul>
+  </li>
+     </li>
  </ul>
