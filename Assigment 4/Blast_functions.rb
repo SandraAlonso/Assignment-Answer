@@ -1,4 +1,4 @@
-# Blas_function class implements all the function related to blast methods:
+# Blast_function class implements all the function related to blast methods:
 # 1. get_se_type(file) => finds out which type of sequence contains the file (Nucleic Acid sequence or Aino Acid sequence)
 # 2. create_databases(file1, file2) => create blast database from files.
 # 3. create_factories(org1, org2) => use create database to create factories to the organisims

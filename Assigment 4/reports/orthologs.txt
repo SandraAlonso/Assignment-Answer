@@ -1,6 +1,7 @@
 Number of sequences identified as orthologs:  1746.
 
 Used files: TAIR10 and pep 
+
 1: SPAC977.16c and AT1G48430.1
 2: SPAC11D3.15 and AT5G37830.1
 3: SPAC5H10.03 and AT1G58280.3
