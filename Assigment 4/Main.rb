@@ -55,20 +55,19 @@ end
 # two species and comparing them all to one another. If genes from two species identify each other as 
 # their closest partners then they are considered orthologs. 
 
-# Genome analysis, once they have been completelys equenced, could be done at two levels:
-#   1. Structural analysis: aims to make a basic description of the elements that make up the genome and how they are organized. (Not necessary at all in our case)
-#   2. Functional analysis: defines the function of each of the genes in a genome and the proteins they encode, and is one of the most 
-#      important parts of the genome annotation process. 
-#      We consider four types of methods to predict the function of a gene or its gene product:
+# Genome analysis, once they have been completelys equenced, could be done at two levels, structural and functional level.
+# For ortholog searching is used functional analysis: defines the function of each of the genes in a genome and the proteins they encode, and is one of the most 
+# important parts of the genome annotation process. 
+# There are four types of methods to predict the function of a gene or its gene product:
 #
-#      a. Methods based on homology detection => BLAST
-#      b. Methods based on comparison of genomes => They are used to predict interactions between proteins, but depending on the method, 
+# a. Methods based on homology detection => BLAST (already use)
+# b. Methods based on comparison of genomes => They are used to predict interactions between proteins, but depending on the method, 
 #         said interaction may correspond to a physical or functional interaction. In either case, it is assumed that two interacting proteins 
 #         are part of the same cellular process.
-#      c. Methods based on the analysis of protein sequences => they focus on the prediction of characteristics of predicted protein products
-#      d. Methods based on the structure of proteins => they are based on the detection of active sites and the prediction of ligands
+# c. Methods based on the analysis of protein sequences => they focus on the prediction of characteristics of predicted protein products
+# d. Methods based on the structure of proteins => they are based on the detection of active sites and the prediction of ligands
 
-# Every method mentioned before (b to d) could be used in order to confirm an ortholog. IN my opinion, I would start with methods based on comparison of genomes
+# Every method mentioned before (b to d) could be used in order to confirm an ortholog. In my opinion, I would start with methods based on comparison of genomes
 # becuase it seems to be the most accurate and easy to develop.
 
 #-----------References:--------------------------
