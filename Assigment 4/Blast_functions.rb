@@ -67,10 +67,10 @@ class Blast_functions
                 
         org2.each do |entry|    # Iteration of the sequence in search
             query_org_2 = organism1.factory.query(">myseq\n#{entry[1]}")
-            if query_org_2.hits.length != 0 && query_org_2.hits[0].evalue <= (10**-6) && ((query_org_2.hits[0].query_end.to_f-query_org_2.hits[0].query_start.to_f)/query_org_2.hits[0].query_len.to_f)>0.5     #Conditions for the hit to be considered a good one: threshole below 10^⁻6 and coverage over 50%
+            if query_org_2.hits.length != 0 && query_org_2.hits[0].evalue <= (10**-6) && ((query_org_2.hits[0].query_end.to_f-query_org_2.hits[0].query_start.to_f)/query_org_2.hits[0].query_len.to_f)>0.5     #Conditions for the hit to be considered a good one: e-value threshole = 10^⁻6 and coverage over 50%
                 hit_id = query_org_2.hits[0].definition.split('|')[0].strip                                                     # Get id of the best hits       
                 query_org_1 = organism2.factory.query(">myseq\n#{org1[hit_id]}")                                                # Do blast on the best hit sequence got on last step
-                if query_org_1.hits.length != 0 && query_org_1.hits[0].evalue <= (10**-6) && ((query_org_1.hits[0].query_end.to_f-query_org_1.hits[0].query_start.to_f)/query_org_1.hits[0].query_len.to_f)>0.5  #Conditions for the hit to be considered a good one: threshole below 10^⁻6 and overage over 50%
+                if query_org_1.hits.length != 0 && query_org_1.hits[0].evalue <= (10**-6) && ((query_org_1.hits[0].query_end.to_f-query_org_1.hits[0].query_start.to_f)/query_org_1.hits[0].query_len.to_f)>0.5  #Conditions for the hit to be considered a good one: e-value threshole = 10^⁻6 and overage over 50%
                     if query_org_1.hits[0].definition.split('|')[0].to_s.strip == entry[0]                                      # The best hit must have this format
                         orthologs.push([entry[0],hit_id])                                                                       # If everything is correct, we add them to the ortholog list
                         puts "#{entry[0]}----#{hit_id}"                                                                         # This outputs helped me to follow program iterations
