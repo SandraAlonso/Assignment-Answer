@@ -11,7 +11,7 @@ Command for code excution:
   <ul> 
     <li> First Approach
       <ul> 
-        <li> Explation:  
+        <li> Explanation:  
           <ul> <li> Gene Networks are considered to be closed nets with its first and last gene from the Arabidopsis initial gene list.</li>
             <li> In example (1 level depth): Arabidopsis list: A, B, C, E. Iteractors of A with depth 1: D, E, C, J. Therefore, the are two nets A-C and A-E. Genes A and C are coexpressed </li>
             <li> In example: (2 level depth) Arabidopsis list A, B, C, E. Interactors of B with depth 1: H, I, J. Intercators of H with depth 1: C, P. Therefore, there is one net: B-I-C. Genes B and C are coexpressed. </li>
