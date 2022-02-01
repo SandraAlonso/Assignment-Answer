@@ -1,0 +1,107 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+|																																		|
+|		This report has been made with "ebi.ac.uk database" you can find it at http://www.ebi.ac.uk		 								|
+|		and a gene can be searched by: 																									|
+|		"http://www.ebi.ac.uk/Tools/webservices/psicquic/intact/webservices/current/search/interactor/#{gene}?format=tab25"				|
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Depth level:  2.0
+The total number of network is 3
+In network 1 are included 4 genes of the initial list
+	Network 1
+		 *Gene id: AT5G17300
+		 *Proteine id: ["F4KGY6", "Q93WC6", "Q9FFI1", "A0A178UD91", "A0A1P8BGA9", "A0A7G2F890", "D7LWZ3"]
+		 *KEGG: []
+		 *GO: [["GO:0009734", "P:auxin-activated signaling pathway"], ["GO:0007623", "P:circadian rhythm"], ["GO:0010600", "P:regulation of auxin biosynthetic process"], ["GO:0006355", "P:regulation of transcription, DNA-templated"], ["GO:0016567", "P:protein ubiquitination"], ["GO:0009734", "P:auxin-activated signaling pathway"], ["GO:0007623", "P:circadian rhythm"], ["GO:0010600", "P:regulation of auxin biosynthetic process"]]
+		 *Coexpressed genes: ["AT5G15210", "AT1G76510", "AT1G60250", "AT3G02150", "AT3G15030", "AT3G18550", "AT5G24520", "AT5G08330"]
+
+		 *Gene id: AT5G15850
+		 *Proteine id: ["O50055", "A0A178UD25", "A0A5S9Y4H5", "A0A654G1J6", "D7M7G9"]
+		 *KEGG: []
+		 *GO: [["GO:0009909", "P:regulation of flower development"], ["GO:0000398", "P:mRNA splicing, via spliceosome"], ["GO:0009909", "P:regulation of flower development"]]
+		 *Coexpressed genes: ["AT3G02150", "AT3G01140", "AT1G26780", "AT1G42050", "AT1G48000", "AT5G65050", "AT3G07220", "AT5G23000", "AT5G54470", "AT4G38960", "AT4G12210", "AT4G10240", "AT1G08970", "AT2G31380", "AT5G27910", "AT2G46340", "AT2G46350", "AT3G15354", "AT1G53090", "AT2G32950"]
+
+		 *Gene id: AT4G17460
+		 *Proteine id: ["P46600", "Q546G7", "Q8LBA8"]
+		 *KEGG: []
+		 *GO: [["GO:0003006", "P:developmental process involved in reproduction"], ["GO:0010582", "P:floral meristem determinacy"], ["GO:0080127", "P:fruit septum development"], ["GO:0048467", "P:gynoecium development"]]
+		 *Coexpressed genes: ["AT5G47370", "AT4G37790", "AT3G07220", "AT1G30490", "AT5G12980", "AT2G45680", "AT2G44910", "AT4G16780", "AT3G60390", "AT3G15030", "AT2G22800", "AT1G70920"]
+
+		 *Gene id: AT2G46340
+		 *Proteine id: ["Q9SYX2", "Q0WUH3", "Q56WP1", "Q9SKE4", "Q9SKE5", "B9DFX4", "A0A178VSM9", "D7LDZ0"]
+		 *KEGG: [["ath04712", "Circadian rhythm - plant"]]
+		 *GO: [["GO:0009658", "P:chloroplast organization"], ["GO:0010100", "P:negative regulation of photomorphogenesis"], ["GO:0009640", "P:photomorphogenesis"], ["GO:0010017", "P:red or far-red light signaling pathway"], ["GO:0009585", "P:red, far-red light phototransduction"], ["GO:2000028", "P:regulation of photoperiodism, flowering"], ["GO:0009637", "P:response to blue light"], ["GO:0010218", "P:response to far red light"], ["GO:0010114", "P:response to red light"], ["GO:0048575", "P:short-day photoperiodism, flowering"], ["GO:0009640", "P:photomorphogenesis"], ["GO:0009640", "P:photomorphogenesis"], ["GO:0009658", "P:chloroplast organization"], ["GO:0010100", "P:negative regulation of photomorphogenesis"], ["GO:0009640", "P:photomorphogenesis"], ["GO:0010017", "P:red or far-red light signaling pathway"], ["GO:2000028", "P:regulation of photoperiodism, flowering"], ["GO:0009637", "P:response to blue light"], ["GO:0010218", "P:response to far red light"], ["GO:0010114", "P:response to red light"], ["GO:0048575", "P:short-day photoperiodism, flowering"]]
+		 *Coexpressed genes: []
+
+		 In addition, they are join by other genes which are not in the list. These are:
+		 ["AT4G16780", "AT3G47620", "AT1G24625", "AT5G63090", "AT5G23280", "AT5G65210", "AT2G45680", "AT5G66940", "AT1G69180", "AT2G13570", "AT1G35490", "AT5G06160", "AT1G30500", "AT4G37940", "AT1G08970", "AT3G20260", "AT3G19070", "AT1G23420", "AT5G28640", "AT5G26749", "AT2G33835", "AT2G29580", "AT1G14030", "AT2G25620", "AT1G20700", "AT3G24490", "AT2G40260", "AT5G09750", "AT1G72210", "AT5G38800", "AT1G17590", "AT2G41690", "AT2G41940", "AT5G67180", "AT3G20910", "AT5G53950", "AT5G09460", "AT4G10600", "AT3G15210", "AT5G54360", "AT5G48890", "AT4G00870", "AT2G36740", "AT5G37260", "AT4G36260", "AT1G13450", "AT3G24520", "AT1G04250", "AT5G50010", "AT2G38130", "AT4G01460", "AT2G36000", "AT2G46735", "AT2G02450", "AT1G53170", "AT5G25220", "AT3G50700", "AT2G02060", "AT3G01970", "AT1G33240", "AT3G13960", "AT2G17950", "AT5G17300", "AT4G37180", "AT5G39660", "AT4G03250", "AT1G19860", "AT5G27910", "AT2G34720", "AT2G31070", "AT2G47700", "AT5G12980", "AT2G33290", "AT2G33860", "AT5G47370", "AT1G68360", "AT1G75520", "AT3G01220", "AT5G60970", "AT1G30490", "AT1G30460", "AT2G04038", "AT1G46480", "AT1G07360", "AT3G07740", "AT4G27330", "AT1G69810", "AT1G72570", "AT1G75080", "AT5G04820", "AT4G34990", "AT5G17800", "AT1G69690", "AT2G36026", "AT1G58100", "AT1G28360", "AT5G14170", "AT5G25160", "AT4G08150", "AT1G03040", "AT1G05710", "AT5G44210", "AT3G25882", "AT1G09415", "AT5G65670", "AT1G80390", "AT2G46990", "AT1G15050", "AT2G01570", "AT1G14920", "AT5G17490", "AT3G03450", "AT1G01360", "AT5G45870", "AT2G40330", "AT3G48090", "AT5G63350", "AT3G15030", "AT5G15850", "AT1G35560", "AT1G05230", "AT5G01380", "AT5G45710", "AT5G08330", "AT3G18550", "AT1G42050", "AT1G30135", "AT1G25550", "AT3G17609", "AT3G47120", "AT5G53290", "AT2G01940", "AT5G13790", "AT5G57180", "AT4G06634", "AT1G42220", "AT1G48150", "AT3G21175", "AT1G11510", "AT5G39760", "AT1G54060", "AT3G28920", "AT5G67300", "AT3G61600", "AT3G16500", "AT2G38250", "AT1G04370", "AT5G06950", "AT1G32640", "AT3G21810", "AT4G00390", "AT4G02640", "AT4G17460", "AT1G60250", "AT2G02540", "AT1G61730", "AT4G00270", "AT1G43700", "AT2G25650", "AT3G54390", "AT5G28040", "AT2G46970", "AT3G45150", "AT3G23030", "AT5G15210", "AT1G21200", "AT2G47890", "AT3G21150", "AT3G21880", "AT2G46260", "AT2G24790", "AT1G25440", "AT1G73870", "AT4G10240", "AT2G33500", "AT3G07650", "AT3G02380", "AT5G15840", "AT1G28050", "AT4G15250", "AT1G06040", "AT2G46670", "AT4G15248", "AT5G60100", "AT2G46790", "AT2G21320", "AT4G39070", "AT1G08000", "AT2G31380", "AT1G08010", "AT3G61910", "AT5G54470", "AT4G38960", "AT5G05330", "AT1G51600", "AT5G50570", "AT5G11260", "AT4G24470", "AT1G54160", "AT1G07050", "AT1G49130", "AT5G59430", "AT5G41380", "AT3G12890", "AT3G02150", "AT1G63820", "AT2G33350", "AT5G08070", "AT5G47640", "AT2G37060", "AT3G53340", "AT4G14540", "AT4G20380", "AT4G14720", "AT2G47810", "AT3G14020", "AT1G31630", "AT4G14713", "AT5G61380", "AT2G38880", "AT5G47670", "AT3G05690", "AT1G09030", "AT4G27950", "AT2G32950", "AT2G46340", "AT2G46350", "AT1G53090", "AT3G15354", "AT4G08920", "AT3G13550", "AT5G64920", "AT1G04400", "AT2G36890", "AT1G78600", "AT4G25560", "AT5G41790", "AT1G02340", "AT3G01140", "AT1G26780", "AT1G48000", "AT5G65050", "AT3G07220", "AT5G23000", "AT4G12210"]
+
+In network 2 are included 4 genes of the initial list
+	Network 2
+		 *Gene id: AT1G71030
+		 *Proteine id: ["A0A1P8AQS9", "Q9C9A5", "A0A5S9WRC0", "A0A178WDK7", "D7KYH9"]
+		 *KEGG: []
+		 *GO: [["GO:0009718", "P:anthocyanin-containing compound biosynthetic process"], ["GO:0030154", "P:cell differentiation"], ["GO:0010023", "P:proanthocyanidin biosynthetic process"], ["GO:0009718", "P:anthocyanin-containing compound biosynthetic process"], ["GO:0010023", "P:proanthocyanidin biosynthetic process"]]
+		 *Coexpressed genes: ["AT4G32980", "AT1G56650", "AT1G60250", "AT4G09820"]
+
+		 *Gene id: AT5G17300
+		 *Proteine id: ["F4KGY6", "Q93WC6", "Q9FFI1", "A0A178UD91", "A0A1P8BGA9", "A0A7G2F890", "D7LWZ3"]
+		 *KEGG: []
+		 *GO: [["GO:0009734", "P:auxin-activated signaling pathway"], ["GO:0007623", "P:circadian rhythm"], ["GO:0010600", "P:regulation of auxin biosynthetic process"], ["GO:0006355", "P:regulation of transcription, DNA-templated"], ["GO:0016567", "P:protein ubiquitination"], ["GO:0009734", "P:auxin-activated signaling pathway"], ["GO:0007623", "P:circadian rhythm"], ["GO:0010600", "P:regulation of auxin biosynthetic process"]]
+		 *Coexpressed genes: ["AT5G15210", "AT1G76510", "AT1G60250", "AT3G02150", "AT3G15030", "AT3G18550", "AT5G24520", "AT5G08330"]
+
+		 *Gene id: AT5G15850
+		 *Proteine id: ["O50055", "A0A178UD25", "A0A5S9Y4H5", "A0A654G1J6", "D7M7G9"]
+		 *KEGG: []
+		 *GO: [["GO:0009909", "P:regulation of flower development"], ["GO:0000398", "P:mRNA splicing, via spliceosome"], ["GO:0009909", "P:regulation of flower development"]]
+		 *Coexpressed genes: ["AT3G02150", "AT3G01140", "AT1G26780", "AT1G42050", "AT1G48000", "AT5G65050", "AT3G07220", "AT5G23000", "AT5G54470", "AT4G38960", "AT4G12210", "AT4G10240", "AT1G08970", "AT2G31380", "AT5G27910", "AT2G46340", "AT2G46350", "AT3G15354", "AT1G53090", "AT2G32950"]
+
+		 *Gene id: AT4G17460
+		 *Proteine id: ["P46600", "Q546G7", "Q8LBA8"]
+		 *KEGG: []
+		 *GO: [["GO:0003006", "P:developmental process involved in reproduction"], ["GO:0010582", "P:floral meristem determinacy"], ["GO:0080127", "P:fruit septum development"], ["GO:0048467", "P:gynoecium development"]]
+		 *Coexpressed genes: ["AT5G47370", "AT4G37790", "AT3G07220", "AT1G30490", "AT5G12980", "AT2G45680", "AT2G44910", "AT4G16780", "AT3G60390", "AT3G15030", "AT2G22800", "AT1G70920"]
+
+		 In addition, they are join by other genes which are not in the list. These are:
+		 ["AT5G57520", "AT5G07100", "AT1G30135", "AT1G69120", "AT5G16560", "AT1G68130", "AT4G21610", "AT3G58070", "AT5G25160", "AT1G46480", "AT1G10480", "AT3G11260", "AT1G07360", "AT1G53170", "AT2G40260", "AT2G14210", "AT2G01940", "AT2G41940", "AT2G28610", "AT3G18010", "AT1G68150", "AT5G26749", "AT1G75520", "AT3G51180", "AT5G12980", "AT4G33450", "AT4G34990", "AT3G07220", "AT3G07260", "AT5G42630", "AT2G42410", "AT3G23130", "AT3G15210", "AT3G25790", "AT5G43620", "AT1G30460", "AT5G09750", "AT1G68360", "AT4G20380", "AT5G60120", "AT1G30970", "AT3G57670", "AT1G20980", "AT1G08320", "AT1G04445", "AT2G38300", "AT3G49940", "AT4G37180", "AT4G01500", "AT2G42660", "AT1G71030", "AT2G17950", "AT2G18120", "AT5G66350", "AT5G67180", "AT5G60970", "AT1G66810", "AT2G33835", "AT1G19790", "AT5G17300", "AT4G16780", "AT3G47620", "AT1G24625", "AT5G63090", "AT5G23280", "AT5G15850", "AT5G65210", "AT2G45680", "AT5G66940", "AT1G69180", "AT2G13570", "AT1G35490", "AT5G06160", "AT1G30500", "AT4G37940", "AT1G08970", "AT3G20260", "AT3G19070", "AT1G23420", "AT5G28640", "AT2G29580", "AT1G14030", "AT2G25620", "AT1G20700", "AT3G24490", "AT1G72210", "AT5G38800", "AT1G17590", "AT2G41690", "AT3G20910", "AT5G53950", "AT5G09460", "AT4G10600", "AT5G54360", "AT5G48890", "AT4G00870", "AT2G36740", "AT5G37260", "AT4G36260", "AT1G13450", "AT3G24520", "AT1G04250", "AT5G50010", "AT2G38130", "AT4G01460", "AT2G36000", "AT2G46735", "AT2G02450", "AT5G25220", "AT3G50700", "AT2G02060", "AT3G01970", "AT1G33240", "AT3G13960", "AT5G39660", "AT4G03250", "AT1G19860", "AT5G27910", "AT2G34720", "AT2G31070", "AT2G47700", "AT2G33290", "AT2G33860", "AT5G47370", "AT3G01220", "AT1G30490", "AT2G04038", "AT3G07740", "AT4G27330", "AT1G69810", "AT1G72570", "AT1G75080", "AT5G04820", "AT5G17800", "AT1G69690", "AT2G36026", "AT1G58100", "AT1G28360", "AT5G14170", "AT4G08150", "AT1G03040", "AT1G05710", "AT5G44210", "AT3G25882", "AT1G09415", "AT5G65670", "AT1G80390", "AT2G46990", "AT1G15050", "AT2G01570", "AT1G14920", "AT5G17490", "AT3G03450", "AT1G01360", "AT5G45870", "AT2G40330", "AT3G48090", "AT5G63350", "AT3G15030", "AT2G45190", "AT1G13400", "AT1G68480", "AT4G00180", "AT1G69170", "AT2G21530", "AT2G17600", "AT1G26780", "AT3G50870", "AT1G42050", "AT1G48000", "AT4G36540", "AT5G61270", "AT4G10240", "AT5G26650", "AT4G37740", "AT3G51060", "AT3G14020", "AT3G60390", "AT2G30590", "AT1G69570", "AT1G16640", "AT4G02670", "AT2G31220", "AT5G50570", "AT5G62610", "AT3G26620", "AT3G05690", "AT5G57420", "AT1G02170", "AT4G00220", "AT2G35430", "AT2G33710", "AT2G03710", "AT4G13640", "AT1G22070", "AT2G42280", "AT2G01930", "AT2G04890", "AT5G59430", "AT5G23000", "AT5G61380", "AT1G69560", "AT3G58630", "AT3G11580", "AT4G17460", "AT4G29100", "AT1G77920", "AT1G31140", "AT3G57920", "AT5G42910", "AT5G08070", "AT1G01160", "AT5G59570", "AT3G21150", "AT3G02150", "AT5G05120", "AT5G57180", "AT2G37260", "AT2G46790", "AT3G17860", "AT1G25550", "AT2G46670", "AT1G68670", "AT5G67300", "AT2G44910", "AT4G37670", "AT4G09820", "AT5G43650", "AT5G47390", "AT5G41315", "AT4G34530", "AT1G77450", "AT5G51910", "AT1G48790", "AT1G35560", "AT5G43700", "AT1G04100", "AT3G04730", "AT5G15210", "AT1G76510", "AT1G60250", "AT3G18550", "AT5G24520", "AT5G08330"]
+
+In network 3 are included 6 genes of the initial list
+	Network 3
+		 *Gene id: AT4G09650
+		 *Proteine id: ["Q9SSS9", "Q8RY87", "A0A178UZ02", "A0A178V1L3", "A0A5S9XRG6", "D7LXC1"]
+		 *KEGG: [["ath00190", "Oxidative phosphorylation"], ["ath00195", "Photosynthesis"], ["ath01100", "Metabolic pathways"]]
+		 *GO: [["GO:0015986", "P:ATP synthesis coupled proton transport"], ["GO:0042742", "P:defense response to bacterium"], ["GO:0015979", "P:photosynthesis"], ["GO:0009773", "P:photosynthetic electron transport in photosystem I"], ["GO:0009772", "P:photosynthetic electron transport in photosystem II"], ["GO:0009409", "P:response to cold"], ["GO:0035556", "P:intracellular signal transduction"], ["GO:0042742", "P:defense response to bacterium"], ["GO:0009773", "P:photosynthetic electron transport in photosystem I"], ["GO:0009772", "P:photosynthetic electron transport in photosystem II"], ["GO:0009409", "P:response to cold"]]
+		 *Coexpressed genes: ["AT4G37260", "AT4G32570"]
+
+		 *Gene id: AT1G03130
+		 *Proteine id: ["Q9SA56", "Q9SUI3", "A0A178WBG3", "A0A178W876", "A0A5S9SBN0"]
+		 *KEGG: [["ath00195", "Photosynthesis"], ["ath01100", "Metabolic pathways"]]
+		 *GO: [["GO:0015979", "P:photosynthesis"], ["GO:0015979", "P:photosynthesis"]]
+		 *Coexpressed genes: ["AT4G37260"]
+
+		 *Gene id: AT4G02770
+		 *Proteine id: ["Q9S7H1", "Q8L9B6", "A0A178V4A3", "A0A178UV45", "A0A5S9XQ39", "D7M3D2"]
+		 *KEGG: [["ath00195", "Photosynthesis"], ["ath01100", "Metabolic pathways"]]
+		 *GO: [["GO:0140547", "P:acquisition of seed longevity"], ["GO:0015979", "P:photosynthesis"], ["GO:0035556", "P:intracellular signal transduction"], ["GO:0015979", "P:photosynthesis"], ["GO:0140547", "P:acquisition of seed longevity"], ["GO:0015979", "P:photosynthesis"]]
+		 *Coexpressed genes: ["AT4G37260", "AT1G31880"]
+
+		 *Gene id: AT1G37130
+		 *Proteine id: ["P11035", "Q7Y260", "Q0WLH2", "C0Z2B5", "Q0WUE2", "Q94C76", "A0A654EGF1"]
+		 *KEGG: [["ath00910", "Nitrogen metabolism"], ["ath01100", "Metabolic pathways"]]
+		 *GO: [["GO:0042128", "P:nitrate assimilation"], ["GO:0006809", "P:nitric oxide biosynthetic process"], ["GO:0009635", "P:response to herbicide"], ["GO:0009416", "P:response to light stimulus"], ["GO:0009610", "P:response to symbiotic fungus"], ["GO:0042128", "P:nitrate assimilation"], ["GO:0006809", "P:nitric oxide biosynthetic process"], ["GO:0042128", "P:nitrate assimilation"], ["GO:0006809", "P:nitric oxide biosynthetic process"], ["GO:0042128", "P:nitrate assimilation"], ["GO:0006809", "P:nitric oxide biosynthetic process"], ["GO:0042128", "P:nitrate assimilation"], ["GO:0006809", "P:nitric oxide biosynthetic process"]]
+		 *Coexpressed genes: ["AT5G18930", "AT1G31880", "AT4G32570", "AT2G37630", "AT5G60120"]
+
+		 *Gene id: AT1G14280
+		 *Proteine id: ["Q9M9T4", "Q8L8R2", "A0A178WDI0", "A0A7G2DSS7"]
+		 *KEGG: []
+		 *GO: [["GO:0048366", "P:leaf development"], ["GO:0009638", "P:phototropism"], ["GO:0009585", "P:red, far-red light phototransduction"], ["GO:0009638", "P:phototropism"]]
+		 *Coexpressed genes: ["AT1G35560", "AT1G31880"]
+
+		 *Gene id: AT1G76080
+		 *Proteine id: ["Q9SGS4", "Q8LDJ9", "Q95GH8", "A0A178WHK1"]
+		 *KEGG: []
+		 *GO: [["GO:0045454", "P:cell redox homeostasis"], ["GO:0042742", "P:defense response to bacterium"], ["GO:0010286", "P:heat acclimation"], ["GO:0006979", "P:response to oxidative stress"], ["GO:0009414", "P:response to water deprivation"]]
+		 *Coexpressed genes: ["AT5G67300", "AT1G31880", "AT5G19000"]
+
+		 In addition, they are join by other genes which are not in the list. These are:
+		 ["AT1G53170", "AT5G43700", "AT1G04240", "AT1G52830", "AT1G15580", "AT5G65670", "AT1G04100", "AT1G80390", "AT3G16500", "AT3G17600", "AT1G15050", "AT1G01360", "AT1G73410", "AT5G67300", "AT2G25490", "AT3G29350", "AT5G53160", "AT5G58340", "AT5G58950", "AT2G29380", "AT5G17690", "AT1G01140", "AT2G30590", "AT2G01760", "AT2G25090", "AT1G51660", "AT2G42880", "AT1G10210", "AT3G14720", "AT1G22770", "AT1G07430", "AT5G42900", "AT2G17670", "AT5G39340", "AT3G02140", "AT1G66160", "AT5G59730", "AT3G13672", "AT5G16400", "AT1G19010", "AT1G15200", "AT4G18040", "AT5G45680", "AT4G25670", "AT5G61230", "AT4G02150", "AT5G14070", "AT5G62520", "AT4G31300", "AT5G61010", "AT5G37055", "AT4G16143", "AT3G52120", "AT3G50670", "AT3G21150", "AT4G09650", "AT3G55150", "AT4G23910", "AT4G21580", "AT4G18372", "AT3G18140", "AT4G11070", "AT2G32650", "AT1G45790", "AT1G51580", "AT3G01690", "AT3G06430", "AT5G14170", "AT2G30360", "AT3G18210", "AT5G49690", "AT2G42260", "AT3G19120", "AT3G60360", "AT2G33430", "AT5G49210", "AT3G05640", "AT5G22890", "AT3G12830", "AT1G07210", "AT1G45300", "AT5G62310", "AT5G62770", "AT3G18680", "AT4G15770", "AT1G06460", "AT5G48335", "AT5G27720", "AT5G05790", "AT1G72670", "AT2G25880", "AT1G03130", "AT2G27020", "AT2G32180", "AT3G52320", "AT1G21600", "AT1G10780", "AT1G10650", "AT5G25510", "AT4G18830", "AT3G42630", "AT1G76890", "AT2G37630", "AT3G01680", "AT3G02460", "AT1G54200", "AT1G09810", "AT2G25250", "AT4G18700", "AT4G28860", "AT5G20920", "AT4G20300", "AT1G77710", "AT2G43370", "AT1G02140", "AT1G67090", "AT3G13200", "AT2G39100", "AT3G52300", "AT3G49810", "AT5G25280", "AT5G16080", "AT4G02770", "AT2G24570", "AT3G54170", "AT1G03900", "AT2G44745", "AT5G51760", "AT5G55910", "AT1G69560", "AT2G32960", "AT5G61380", "AT1G15550", "AT2G02950", "AT1G37130", "AT1G54490", "AT1G14280", "AT1G69810", "AT1G22640", "AT2G46870", "AT5G60120", "AT1G53510", "AT5G08130", "AT5G04190", "AT1G63480", "AT4G30860", "AT1G12120", "AT4G26610", "AT1G49850", "AT5G49040", "AT5G50180", "AT5G03740", "AT3G11400", "AT5G22310", "AT5G23130", "AT1G24430", "AT1G23220", "AT2G35010", "AT4G03250", "AT4G37710", "AT5G11460", "AT1G68130", "AT4G31050", "AT1G76080", "AT5G18110", "AT4G22745", "AT1G03330", "AT3G18295", "AT5G19340", "AT3G27580", "AT5G05190", "AT2G27840", "AT1G00240", "AT5G41070", "AT5G59490", "AT3G15660", "AT1G05710", "AT5G65683", "AT1G14685", "AT1G10760", "AT5G58960", "AT1G76070", "AT3G16560", "AT4G21660", "AT4G39540", "AT4G14020", "AT4G37260", "AT1G31880"]
