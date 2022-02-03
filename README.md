@@ -35,5 +35,5 @@ In both approaches, it is mandatory to introduce the depth level. (it is asked w
 ### Fourth assignment: 
     Running command: .\Main.rb TAIR10.fa pep.fa
     
-### Fiftg assignment:
+### Fifth assignment:
 Execute in UniProt SPARQL Endpoint: https://sparql.uniprot.org/sparql
